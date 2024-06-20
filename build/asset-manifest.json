@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/siheung-talktalk/static/css/main.09b67591.css",
-    "main.js": "/siheung-talktalk/static/js/main.0b146adc.js",
+    "main.js": "/siheung-talktalk/static/js/main.4c28bf89.js",
     "static/js/453.f13a4255.chunk.js": "/siheung-talktalk/static/js/453.f13a4255.chunk.js",
     "index.html": "/siheung-talktalk/index.html",
     "main.09b67591.css.map": "/siheung-talktalk/static/css/main.09b67591.css.map",
-    "main.0b146adc.js.map": "/siheung-talktalk/static/js/main.0b146adc.js.map",
+    "main.4c28bf89.js.map": "/siheung-talktalk/static/js/main.4c28bf89.js.map",
     "453.f13a4255.chunk.js.map": "/siheung-talktalk/static/js/453.f13a4255.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09b67591.css",
-    "static/js/main.0b146adc.js"
+    "static/js/main.4c28bf89.js"
   ]
 }
