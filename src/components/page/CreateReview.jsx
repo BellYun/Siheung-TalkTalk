@@ -222,7 +222,8 @@ export default function CreateReview() {
             ratingNumber: number + 1,
             ratingSum: sum + rating,
             keywords: keywords,
-          }).then(() => navigate(`/ReviewDetail/${timestamp}`))
+          })
+          .then(() => navigate(`siheung-talktalk/ReviewDetail/${timestamp}`));
 
         alert("리뷰가 등록되었습니다.");
       } else {

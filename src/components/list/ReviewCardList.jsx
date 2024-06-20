@@ -26,7 +26,9 @@ function ReviewCardList({ ReviewList }) {
           rating={review.rating}
           keyword={review.keyWord}
           img={review.image}
-          onClickEvent={() => navigate(`/ReviewDetail/${review.id}`)}
+          onClickEvent={() =>
+            navigate(`/siheung-talktalk/ReviewDetail/${review.id}`)
+          }
         />
       ))}
       {ReviewList.length === 0 && <div>리뷰가 없습니다.</div>}

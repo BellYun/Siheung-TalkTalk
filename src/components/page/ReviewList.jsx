@@ -185,7 +185,7 @@ function ReviewList(props) {
             title="리뷰 작성하기"
             fontWeight="600"
             onClick={() => {
-              navigate("/CreateReview");
+              navigate("/siheung-talktalk/CreateReview");
             }}
           />
         </ButtonBox>

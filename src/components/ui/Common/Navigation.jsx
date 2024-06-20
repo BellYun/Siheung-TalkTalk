@@ -77,7 +77,7 @@ function Navigation(props) {
             : "url('https://i.postimg.cc/268WSw4R/home-off.png')"
         }
         color={path === "/" ? "#5C67DC" : "#ccc"}
-        onClickEvent={() => navigate("/")}
+        onClickEvent={() => navigate("/siheung-talktalk")}
       />
       <NavButton
         title="축제"
@@ -91,7 +91,7 @@ function Navigation(props) {
             ? "#5C67DC"
             : "#ccc"
         }
-        onClickEvent={() => navigate("/FestivalList")}
+        onClickEvent={() => navigate("/siheung-talktalk/FestivalList")}
       />
       <NavButton
         title="마이페이지"

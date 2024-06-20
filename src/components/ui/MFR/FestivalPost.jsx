@@ -94,7 +94,7 @@ function FestivalPost({
 
   console.log(img);
   return (
-    <Wrapper onClick={() => navigate(`/FestivalDetail/${id}`)}>
+    <Wrapper onClick={() => navigate(`/siheung-talktalk/FestivalDetail/${id}`)}>
       <Thumbnail src={img}></Thumbnail>
       <Period>2024.09.27~2024.09.29</Period>
       <Title>{festival}</Title>

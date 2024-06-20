@@ -145,7 +145,7 @@ function PostCard({ num, title, festival, review, rating, id, img }) {
   const navigate = useNavigate();
 
   return (
-    <Wrapper onClick={() => navigate(`/ReviewDetail/${id}`)}>
+    <Wrapper onClick={() => navigate(`/siheung-talktalk/ReviewDetail/${id}`)}>
       <Thumbnail src={img || process.env.PUBLIC_URL + "/" + "FestivalImg.png"}>
         <Num>{num}</Num>
       </Thumbnail>

@@ -69,7 +69,7 @@ function FestivalCard(props) {
   const navigate = useNavigate();
   return (
     <Wrapper
-      onClick={() => navigate(`/FestivalDetail/${props.id}`)}
+      onClick={() => navigate(`/siheung-talktalk/FestivalDetail/${props.id}`)}
       url={props.imgUrl}
     >
       <PageNum>

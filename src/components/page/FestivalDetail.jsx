@@ -256,14 +256,14 @@ function FestivalDetail(props) {
         <ReviewCardList ReviewList={viewReviews} />
         <ButtonList>
           <MoreReviewBtn
-            onClick={() => navigate("/reviewList")}
+            onClick={() => navigate("/siheung-talktalk/reviewList")}
             color="#5C67DC"
             backgroundcolor="transparent"
             title="더 많은 Review 보기  →"
           />
           <ReviewWriteBtn
             id={post?.id}
-            onClick={() => navigate("/CreateReview/" + postId)}
+            onClick={() => navigate("/siheung-talktalk/CreateReview/" + postId)}
             color="#fff"
             backgroundcolor="#5C67DC"
             title="리뷰 작성하기"

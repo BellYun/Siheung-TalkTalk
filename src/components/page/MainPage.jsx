@@ -144,7 +144,7 @@ function MainPage(props) {
           color="#5C67DC"
           backgroundcolor="transparent"
           title="더 많은 Review 보기  →"
-          onClick={() => navigate("/ReviewList")}
+          onClick={() => navigate("ReviewList")}
         />
       </KeywordReviewBox>
 

@@ -10,39 +10,39 @@ import FestivalForm from "./components/page/festivalForm.jsx";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "siheung-talktalk",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <MainPage />, //
       },
       {
-        path: "/FestivalList",
+        path: "FestivalList",
         element: <FestivalListPage />, //
       },
       {
-        path: "/FestivalDetail/:id",
+        path: "FestivalDetail/:id",
         element: <FestivalDetail />, //
       },
       {
-        path: "/reviewList",
+        path: "reviewList",
         element: <ReviewList />, //
       },
       {
-        path: "/ReviewDetail/:id",
+        path: "ReviewDetail/:id",
         element: <ReviewDetail />, //
       },
       {
-        path: "/CreateReview/:id",
+        path: "CreateReview/:id",
         element: <CreateReview />, //
       },
       {
-        path: "/CreateReview/",
+        path: "CreateReview/",
         element: <CreateReview />, //
       },
       {
-        path: "/input",
+        path: "input",
         element: <FestivalForm />, //
       },
     ],
